@@ -1,69 +1,56 @@
-# Prerequisites
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Arduino build artifacts
+build/
+_build/
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.lst
+*.o
+*.a
 *.d
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Arduino IDE temporary files
+*.tmp
+*.bak
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
-build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.platformio/
 compile_commands.json
 
-# Temporary files
-*.tmp
+# Generated packages / releases
+*.zip
+*.tar.gz
+*.tgz
+
+# Logs
 *.log
-*.bak
-*.swp
 
-# vcpkg
-vcpkg_installed/
+# Test / coverage artifacts
+coverage/
+*.gcda
+*.gcno
+*.gcov
 
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+# Python tooling, if scripts are added later
+__pycache__/
+*.pyc
+.venv/
+venv/
