@@ -4,6 +4,9 @@ SimpleIncrementalEncoder is a lightweight C++ library for reading a single incre
 
 The encoder ground pin `G` must be connected to `GND`. With the default internal pull-ups, encoder contacts and button contacts are assumed active-low. Therefore, this version counts **falling edges**.
 
+![Physical_encoder](img/[EC11-SW-E].jpg)
+![Thypical_connections](img/schematic.svg)
+
 ## Features
 
 - Single encoder instance by design.
