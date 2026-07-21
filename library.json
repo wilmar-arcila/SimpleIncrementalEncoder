@@ -1,0 +1,35 @@
+{
+  "name": "SimpleIncrementalEncoder",
+  "version": "0.3.0",
+  "description": "Simple incremental encoder library for Arduino-compatible embedded platforms with polling, interrupt mode, optional push-button support, and platform-specific backends.",
+  "keywords": [
+    "encoder",
+    "incremental encoder",
+    "rotary encoder",
+    "push button",
+    "direction",
+    "pulse counter",
+    "interrupt",
+    "falling edge",
+    "arduino",
+    "avr",
+    "atmega328p"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wilmar-arcila/SimpleIncrementalEncoder"
+  },
+  "authors": [
+    {
+      "name": "Wilmar Arcila C.",
+      "maintainer": true
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": [
+    "atmelavr"
+  ],
+  "headers": [
+    "SimpleIncrementalEncoder.h"
+  ]
+}

@@ -1,0 +1,36 @@
+#######################################
+# Syntax Colouring Map For SimpleEncoder
+#######################################
+
+SimpleIncrementalEncoder	KEYWORD1
+begin	KEYWORD2
+beginInterruptMode	KEYWORD2
+endInterruptMode	KEYWORD2
+isInterruptMode	KEYWORD2
+canUseEncoderInterrupt	KEYWORD2
+canUseButtonInterrupt	KEYWORD2
+canUseInterrupts	KEYWORD2
+update	KEYWORD2
+read	KEYWORD2
+readAndReset	KEYWORD2
+reset	KEYWORD2
+direction	KEYWORD2
+moved	KEYWORD2
+buttonPressed	KEYWORD2
+buttonPressCount	KEYWORD2
+readButtonPressCountAndReset	KEYWORD2
+resetButton	KEYWORD2
+buttonState	KEYWORD2
+hasButton	KEYWORD2
+lastA	KEYWORD2
+lastB	KEYWORD2
+setReverse	KEYWORD2
+setEncoderDebounceMicros	KEYWORD2
+setButtonDebounceMicros	KEYWORD2
+setDebounceMicros	KEYWORD2
+EncoderDirection	KEYWORD1
+EncoderSnapshot	KEYWORD1
+ENCODER_NONE	LITERAL1
+ENCODER_CW	LITERAL1
+ENCODER_CCW	LITERAL1
+SIEN_NO_PIN	LITERAL1
